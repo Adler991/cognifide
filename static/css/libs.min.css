@@ -1,0 +1,7 @@
+{"version":3,"sources":["libs.css"],"names":[],"mappings":"AAAA,+D","file":"../less/libs.css","sourcesContent":["@import \"../../../node_modules/slick-carousel/slick/slick.css\";\n"]}
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+/*# sourceMappingURL=../maps/libs.css.map */
+
+{"version":3,"sources":["main.css","main.less"],"names":[],"mappings":"AAAA,+DCGA,Y,CACC,e,CACA,W,CACA,Y","file":"../less/main.css","sourcesContent":["@import \"../../../node_modules/slick-carousel/slick/slick.css\";\n.slider_item {\n  background: #ccc;\n  width: 500px;\n  height: 200px;\n}\n","\r\n\r\n\r\n.slider_item {\r\n\tbackground: #ccc;\r\n\twidth: 500px;\r\n\theight: 200px;\r\n}\r\n\r\n@import \"libs.less\";\r\n\r\n"]}
+@import "../../../node_modules/slick-carousel/slick/slick.css";.slider_item{background:#ccc;width:500px;height:200px}
+/*# sourceMappingURL=../maps/main.css.map */
