@@ -57,18 +57,61 @@
       </div>
     </section>
     <main class="main">
-      <div class="center center-main">
+      <div class="center center-main clearfix">
         <aside class="sidebar">
           <article class="about-author">
             <h3 class="about-author__title">About author</h3>
             <p class="about-author__desc"><span>John Doe</span>- lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta.</p>
           </article>
+          <section class="related-post">
+            <h3 class="related-post__title">Related posts</h3>
+            <div class="post-wr">
+              <div class="post-img"><img src="./static/img/post/post1.jpg"></div>
+              <div class="post"><span class="post__title">POZNAN AT NIGHT</span><span class="post__comment">10 Comments</span></div>
+            </div>
+            <div class="post-wr">
+              <div class="post-img border"><img src="./static/img/post/post2.jpg"></div>
+              <div class="post"><span class="post__title">PEOPLE TO MEET</span><span class="post__comment">21 Comments</span></div>
+            </div>
+            <div class="post-wr">
+              <div class="post-img border"><img src="./static/img/post/post3.jpg"></div>
+              <div class="post"><span class="post__title">VISIT OUR OFFICE</span><span class="post__comment">17 Comments</span></div>
+            </div>
+          </section>
+          <section class="table-currency"><span class="table-currency__tittle">Currency</span>
+            <table class="table">
+              <tr>
+                <th>Date</th>
+                <th>Value</th>
+                <th>Status</th>
+                <th>Diff</th>
+              </tr>
+              <tr class="table-row-1">
+                <td>22.1</td>
+                <td>495.5</td>
+                <td class="green-arrow"></td>
+                <td>+1.0</td>
+              </tr>
+              <tr class="table-row-2">
+                <td>21.1</td>
+                <td>448.5</td>
+                <td class="red-arrow"></td>
+                <td>-2.3</td>
+              </tr>
+              <tr class="table-row-1">
+                <td>20.1</td>
+                <td>450.8</td>
+                <td class="green-arrow"></td>
+                <td>+8.0</td>
+              </tr>
+            </table>
+          </section>
         </aside>
         <section class="main-content">
           <div class="main-content-wr">
             <article class="main-article">
               <h3 class="main-article__title">Why should you come to poznan</h3>
-              <div class="main-article-wr">
+              <div class="main-article-wr clearfix">
                 <div class="main-article__avatar-wr">
                   <div class="avatar-date"><span>11 Nov<br>2013</span></div>
                   <div class="avatar-author"><span>by<br>John Doe</span></div>
@@ -78,17 +121,62 @@
                     Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio  em nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec  ullamcorper nulla non metus auctor fringilla.
                     Nulla vitae elit libero, a pharetra augue. Donec  ullamcorper nulla non metus auctor fringilla...
                   </p>
-                  <div class="main-article__content-row">
-                    <div class="main-article__content-link-wr"><a class="main-article__content-link" href="#">read more</a></div>
-                    <div class="main-article__content-like-wr"><span class="main-article__like">10 likes</span><span class="main-article__comment">22 comments</span></div>
-                  </div>
+                </div>
+                <div class="main-article__content-row">
+                  <div class="main-article__content-link-wr"><a class="main-article__content-link" href="#">read more</a></div>
+                  <div class="main-article__content-like-wr"><span class="main-article__like">10 likes</span><span class="main-article__comment">22 comments</span></div>
                 </div>
               </div>
             </article>
+            <div class="recent-articles">
+              <div class="recent-articles__row">
+                <div class="recent-article-wr">
+                  <div class="recent-article"><span class="recent-article__title">New atractions</span><span class="recent-article__caption">Posted by<span> John Doe</span> on<span>10 Nov 2013</span></span>
+                    <p class="recent-article__description">
+                      Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                      Sed posuere consectetur est at lobortis.
+                    </p><a class="recent-article__link" href="#">more...</a>
+                  </div>
+                  <div class="recent-articles__like-row"><span class="recent-articles__like">12</span><span class="recent-articles__comment">34</span></div>
+                </div>
+                <div class="recent-article-wr">
+                  <div class="recent-article"><span class="recent-article__title">Let's meet on old market square<br>it will be fun</span><span class="recent-article__caption">Posted by<span> John Doe</span> on<span> 09 Nov 2013</span></span>
+                    <p class="recent-article__description">
+                      Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                      Sed posuere consectetur est at lobortis. Eget lacinia odio sem nec elit.
+                      Sed posuere consectetur est at lobortis.eget lacinia...
+                    </p><a class="recent-article__link" href="#">more...</a>
+                  </div>
+                  <div class="recent-articles__like-row"><span class="recent-articles__like">56</span><span class="recent-articles__comment">55</span></div>
+                </div>
+              </div>
+              <div class="recent-articles__banner"><span>your add here</span></div>
+            </div>
           </div>
         </section>
       </div>
     </main>
+    <section class="map">
+      <h2 class="map-tittle center">Where can i find more information</h2>
+      <div class="map-border-one">
+        <div class="map-border-two">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2432.467181792939!2d16.93636881537161!3d52.43445135031875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47045ca8d69d0109%3A0xd9f9d9e3537fa885!2zTXVyYXdhLCA2MC0xMDEgUG96bmHFhCwg0J_QvtC70YzRiNCw!5e0!3m2!1sru!2sua!4v1541605382142" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="center center-footer">
+        <div class="footer-wr">
+          <h2 class="logo"><a href="#">poz<span class="logo-color">nan</span> - city<span class="logo-color">2</span>live</a></h2>
+          <ul class="footer-nav">
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Home</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Product</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Services</a></li>
+            <li class="footer-nav__item"><a class="footer-nav__link" href="#">Contact</a></li>
+          </ul>
+        </div><span class="rights">All rights reserved 2013</span>
+      </div>
+    </footer>
   </body>
   <script src="static/js/libs.min.js"></script>
   <script src="static/js/main.js"></script>
